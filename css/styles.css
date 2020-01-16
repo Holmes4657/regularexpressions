@@ -1,0 +1,11 @@
+#age {
+    outline: none;
+}
+
+#age::valid {
+    border: 1px solid green;
+}
+
+#age::invalid {
+    border: 1px solid red;
+}
